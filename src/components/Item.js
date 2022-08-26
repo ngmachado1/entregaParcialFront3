@@ -15,14 +15,15 @@ export default function Item({props, handlerTotal} ) {
   const [stock, setStock] = useState(props.stock)
   const [cantidad, setCantidad] = useState(0)
   
-  useEffect(() => {
-    handlerTotal( cantidad)
-  }, [cantidad]);
+  // useEffect(() => {
+  //   handlerTotal(cantidad)
+  // }, [cantidad]);
   
 
   const handlerShop = () =>{
     stock > 0 && setStock(stock - 1)
     setCantidad(cantidad + 1)
+    handlerTotal(cantidad)
   }
  
   let className = 'menu';

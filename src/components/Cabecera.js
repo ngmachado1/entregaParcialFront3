@@ -9,7 +9,6 @@ import React from 'react'
 //    p > span     (el span mostrará la cantidad recibida por props)
 
 export default function Cabecera({total}) {
-  
   return (
     <header>
         <h1>Carrito de compras</h1>

@@ -10,9 +10,6 @@ import Item from './Item';
 
 
 export default function Listado({handlerTotal}) {
-  const handleClick = (e) =>{
-    console.log(e)
-  }
   return (
     <div className='container'>
      {data.map(item => <Item props={item} key={item.id} handlerTotal={handlerTotal}/>)}

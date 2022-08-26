@@ -52,19 +52,14 @@ header p span {
   text-align: center;
 }
 
-.producto h5 span.soldout{
+.producto h5 span{
   background-color: rgb(255, 178, 178);
   padding: 3px;
   font-weight: lighter;
   color: rgb(155, 0, 0);
   border-radius: 3px;
 }
-.producto h5 span{
-  padding: 3px;
-  font-weight: lighter;
-  color: rgb(0, 0, 0);
-  border-radius: 3px;
-}
+
 .producto button{
   padding: 5px;
   text-transform: uppercase;
